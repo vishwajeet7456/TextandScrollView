@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/vishwajeet"
+         />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="15dp"
+        android:text="[Name] is a dynamic individual with a passion for [field of interest]. Born and raised in [hometown/country], [they/he/she] [insert interesting details about childhood/family life if applicable].
+
+[Name] went on to attend [educational institution] where [they/he/she] earned [degree/certification] in [major/minor]. During [their/his/her] time at [educational institution], [they/he/she] [insert notable academic achievements, extracurricular activities, and/or leadership roles if applicable].
+
+Following [their/his/her] graduation, [Name] embarked on [career path], [insert interesting or impressive job titles, accomplishments, and/or awards if applicable]. [They/He/She] has also [insert notable hobbies or volunteer work].
+
+In [current year], [Name] continues to [insert current occupation or personal projects]. [They/He/She] is [insert positive qualities or traits, such as hardworking, creative, compassionate, or innovative]. [Name]'s ultimate goal is [insert personal or professional aspiration], and [they/he/she] is dedicated to making that vision a reality."
+        />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/vishwajeet"
+        />
+
+
+
+</LinearLayout>
